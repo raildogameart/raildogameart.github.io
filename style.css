@@ -43,13 +43,15 @@ p {
 }
 
 header {
-    width: 95%;
+    padding: 20px;
+    position: fixed;
     max-width: 788px;
     display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-    margin-top: 15px;
-    
+    align-items: center;  
+}
+
+main{
+  margin-top: 100px;
 }
 
 .icon-link {
@@ -133,6 +135,7 @@ header {
 }
 
 .image-container {
+    margin-top: 100px;
     height: 96px;
     width: 96px;
     border-radius: 48px;
@@ -158,10 +161,12 @@ header {
 
 h2 {
     font-size: 20px;
+    margin-top: 60px;
     margin-bottom: 30px;
 }
 h1 {
     font-size: 12px;
+    margin-bottom: 20px;
 }
 
 a {
