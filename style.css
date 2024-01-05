@@ -130,6 +130,10 @@ main{
     background-position: calc(-4 * var(--icon-size)) calc(-2 * var(--icon-size));
   }
 
+  .mastodon-icon {
+    background-position: calc(-0 * var(--icon-size)) calc(-3 * var(--icon-size));
+  }
+
 .share-button {
     width: 40px;
     height: 40px;
