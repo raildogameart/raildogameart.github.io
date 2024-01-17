@@ -54,6 +54,14 @@ main{
   margin-top: 100px;
 }
 
+
+.icon_links {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
 .icon-link {
     display: inline-block;
     width: var(--icon-size);
@@ -62,14 +70,28 @@ main{
     background-size: calc(5 * var(--icon-size)) auto;
     background-repeat: no-repeat;
     image-rendering: pixelated;
-    margin-right: 24px; /* Adicione um espaçamento entre os ícones */
+    margin-right: 12px;
+    margin-left: 12px;
+    align-items: center;
   }
+
+
 
   .icon-link:hover{
     transform: scale(1.5);
   }
   
-  /* Defina a posição para cada ícone */
+  .social-name {
+    text-align: center;
+    display: block;
+    margin-top: 0px;
+    font-size: 12px;
+    color: #ffffff; 
+  }
+
+
+
+  /* Posição dos icones no Sprite */
 
   .twitter-icon {
     background-position: 0 0;
