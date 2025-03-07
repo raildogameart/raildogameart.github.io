@@ -156,6 +156,10 @@ main{
     background-position: calc(-0 * var(--icon-size)) calc(-3 * var(--icon-size));
   }
 
+  .viverse-icon {
+    background-position: calc(-1 * var(--icon-size)) calc(-3 * var(--icon-size));
+  }
+
 .share-button {
     width: 40px;
     height: 40px;
